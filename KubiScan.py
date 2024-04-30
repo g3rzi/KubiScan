@@ -9,7 +9,7 @@ from misc import constants
 import datetime
 from api.api_client import api_init, running_in_container
 
-
+# test
 def get_color_by_priority(priority):
     color = WHITE
     if priority == Priority.CRITICAL:
